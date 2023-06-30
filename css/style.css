@@ -135,6 +135,30 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+  .row {
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+    padding: 0 0;
+  }
+
+  .lessons .col {
+    width: 100%;
+  }
+
+  .steps .col {
+    width: 100%;
+  }
+
+  .why-us .col {
+    width: 100%;
+    margin: 0;
+    padding-top: 3rem;
+    background-color: #eebbc3;
+  }
+}
+
+@media screen and (max-width: 1140px) {
   .container {
     width: 100%;
   }
